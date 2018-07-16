@@ -1,1 +1,0 @@
-# lstm_image_captioning

@@ -1,1 +1,3 @@
-*.ipynb
+coco
+.ipynb_checkpoints
+.vscode

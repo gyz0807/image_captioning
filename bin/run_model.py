@@ -5,9 +5,9 @@ from datetime import datetime
 FLAGS = flags.FLAGS
 
 if __name__ == '__main__':
-    flags.DEFINE_string('root_model_dir', './models',
+    flags.DEFINE_string('root_model_dir', './models/image_caption',
                         'Root directory for saving tensorflow models')
-    flags.DEFINE_string('root_log_dir', './tf_logs',
+    flags.DEFINE_string('root_log_dir', './tf_logs/image_caption',
                         'Root directory for saving tensorboard logs')
 
 class ImageCaptioning(object):
